@@ -1,0 +1,17 @@
+# 자동으로 텍스트 파일을 감지하고 LF 정규화를 수행합니다.
+*  텍스트 = 자동
+
+# Visual Studio 사용자 지정
+* .cs      diff = csharp
+
+# 표준에서 msysgit
+* .doc 	 diff = astextplain
+* .DOC 	 diff = astextplain
+* .docx  diff = astextplain
+* .DOCX  diff = 애 스트extplain
+* .dot   diff = 애 스트extplain
+* .DOT   diff = 애 스트extplain
+* .pdf   diff = astextplain
+* .PDF 	 diff = 애 스트extplain
+* .rtf 	 diff = 애 스트extplain
+* .RTF 	 diff = 애 스트extplain
